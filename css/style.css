@@ -8,12 +8,20 @@
     color: white;
     border: 1px solid white;
     padding: 5px;
+        /* per il testo */
+    text-align: center;
+    line-height: 40px;
+    vertical-align: middle;
+
 }
 [class^="col"] [class^="col"] {
     height: 40px;
     background-color: #00e165;
     color: white;
     border: 1px solid white;
+    text-align: center;
+    line-height: 30px;
+    vertical-align: middle;
 }
 /* stile delle colonne offset */
 [class*="offset"]{
