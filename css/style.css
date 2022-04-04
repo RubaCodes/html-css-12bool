@@ -2,16 +2,23 @@
     margin-top: 20px;
 }
 
-[class*="col"] {
+[class^="col"] {
     height: 50px;
     background-color: #006cfa;
     color: white;
     border: 1px solid white;
     padding: 5px;
 }
-[class*="col"] [class*="col"] {
+[class^="col"] [class^="col"] {
     height: 40px;
     background-color: #00e165;
     color: white;
     border: 1px solid white;
+}
+/* stile delle colonne offset */
+[class*="offset"]{
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    padding: 0;
 }
