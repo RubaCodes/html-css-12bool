@@ -17,8 +17,6 @@
 [class^="col"] [class^="col"] {
     height: 40px;
     background-color: #00e165;
-    color: white;
-    border: 1px solid white;
     text-align: center;
     line-height: 30px;
     vertical-align: middle;
