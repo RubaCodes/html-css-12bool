@@ -1,3 +1,7 @@
+.container {
+    margin-top: 20px;
+}
+
 [class*="col"] {
     height: 50px;
     background-color: #006cfa;
