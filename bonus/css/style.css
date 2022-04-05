@@ -77,6 +77,9 @@ header{
 
 
 /* MAIN-ASIDE */
+main{
+    display: flex;
+}
 .live-channels{
     width: 150px;
     height: calc(100vh - 120px);
@@ -96,6 +99,31 @@ header{
 }
 .user .category{
     font-size: 12px;
+}
+
+
+.main-content{
+    background-color: #0e0e10;
+}
+.card{
+    padding: 10px 5px;
+    color: #efeff1;
+}
+.card-info{
+    position: relative;
+    padding:0 30px;
+}
+.card-info i{
+    position: absolute;
+    left: 0;
+    top: 10px;
+    font-size: 20px;
+}
+.main-content{
+    width: 100%;
+}
+main img{
+    width: 100%;
 }
 
 
