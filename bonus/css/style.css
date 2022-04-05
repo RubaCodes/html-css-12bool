@@ -13,6 +13,38 @@ body{
     font-family:'Roboto' , sans-serif; 
 }
 
+/* HEADER */
+header{
+    background-color: red;
+}
+.header-left-small,.header-mid,.header-right-small,.header-right-big,.header-left-big{
+    display: flex;
+    align-items: center;
+}
+.header-right-small,.header-right-big{
+    justify-content: flex-end;
+}
+.header-mid{
+    justify-content: center;
+}
+.logo{
+    height: 30px;
+}
+@media screen and (max-width:992px){
+    .header-mid,.header-right-big,.header-left-big{
+        display: none;
+    }
+}
+@media screen and (min-width:992px){
+    .header-right-small,.header-left-small{
+        display: none;
+    }
+    
+}
+
+
+
+
 /* FOOTER */
 footer{
     /* RISOLVERE PROBLEMA OVERFLOW */
