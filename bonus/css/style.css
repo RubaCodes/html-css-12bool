@@ -1,0 +1,36 @@
+/* BUTTONS */
+.btn{
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+/* TYPO */
+body{
+    font-family:'Roboto' , sans-serif; 
+}
+
+/* FOOTER */
+footer{
+    background-color: #6100c1;
+    color: white ;
+    font-size: 20px;
+    padding: 10px 10px;
+}
+.footer-right, .footer-left{
+    height: 61px;
+    display: flex;
+    align-items: center;
+
+}
+.footer-right{
+    justify-content: flex-end;
+    padding-right: 40px;
+}
+.footer-left img{
+    height: 50px;
+    margin-right: 20px;
+}
