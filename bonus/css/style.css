@@ -1,12 +1,41 @@
 /* BUTTONS */
 .btn{
     cursor: pointer;
-    padding: 10px;
+    padding: 5px 10px;
     border: none;
     border-radius: 5px;
     text-transform: capitalize;
     font-weight: bold;
 }
+.btn-header{
+    background-color: inherit;
+    color: #efeff1;
+}
+.btn-header input{
+    background-color: #464649;
+    color: #efeff1;
+    border: none;
+    padding: 7px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.header-mid .btn-header i{
+    background-color: #3a3a3d;
+    color: #efeff1;
+    border: none;
+    padding: 8px 7px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.btn.btn-purple{
+    background-color: #9147ff;
+    color: #efeff1;
+}
+.btn.btn-dark{
+    background-color: #3a3a3d;
+    color: #efeff1;
+}
+
 
 /* TYPO */
 body{
@@ -15,10 +44,14 @@ body{
 
 /* HEADER */
 header{
-    background-color: red;
+    max-height: 50px;
+    padding: 10px;
+    background-color: #18181b;
 }
 .header-left-small,.header-mid,.header-right-small,.header-right-big,.header-left-big{
     display: flex;
+    height: 30px;
+    gap: 5px;
     align-items: center;
 }
 .header-right-small,.header-right-big{
