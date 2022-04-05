@@ -63,7 +63,7 @@ header{
 .logo{
     height: 30px;
 }
-@media screen and (max-width:992px){
+@media screen and (max-width:991px){
     .header-mid,.header-right-big,.header-left-big{
         display: none;
     }
@@ -76,6 +76,27 @@ header{
 }
 
 
+/* MAIN-ASIDE */
+.live-channels{
+    width: 150px;
+    height: calc(100vh - 120px);
+    background-color: red;
+}
+@media screen and (max-width:991px){
+    .live-channels{
+        height: calc(100vh - 50px);
+    }
+}
+.user{
+    display: flex;
+}
+.user-left{
+    display: flex;
+    flex-wrap: wrap;
+}
+.user .category{
+    font-size: 12px;
+}
 
 
 /* FOOTER */
@@ -99,4 +120,10 @@ footer{
 .footer-left img{
     height: 50px;
     margin-right: 20px;
+}
+
+@media screen and (max-width:992px){
+    footer{
+        display: none;
+    }
 }
