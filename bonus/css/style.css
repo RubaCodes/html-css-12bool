@@ -86,8 +86,8 @@ main{
     background-color: red;
 }
 @media screen and (max-width:991px){
-    .live-channels{
-        height: calc(100vh - 50px);
+    aside{
+        display: none;
     }
 }
 .user{
@@ -102,26 +102,29 @@ main{
 }
 
 
-.main-content{
+.main-container{
     background-color: #0e0e10;
-}
-.card{
-    padding: 10px 5px;
+    width: 100%;
     color: #efeff1;
+    padding: 30px 20px;
 }
-.card-info{
+.consigliati .card{
+    padding: 10px 5px;
+}
+.consigliati .card-info{
     position: relative;
     padding:0 30px;
 }
-.card-info i{
+.consigliati .card-info i{
     position: absolute;
     left: 0;
     top: 10px;
     font-size: 20px;
 }
-.main-content{
-    width: 100%;
+.categories .card{
+    padding: 10px 5px;
 }
+
 main img{
     width: 100%;
 }
